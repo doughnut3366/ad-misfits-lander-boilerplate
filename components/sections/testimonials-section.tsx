@@ -1,4 +1,8 @@
+"use client"
+
 import { Quote } from "lucide-react"
+import { motion } from "motion/react"
+import { fadeUp, stagger, viewport } from "@/lib/motion"
 import type { TestimonialsContent } from "@/content/schema"
 
 interface TestimonialsSectionProps {
@@ -10,23 +14,42 @@ export function TestimonialsSection({ content }: TestimonialsSectionProps) {
     <section className="border-t border-border px-6 py-24">
       <div className="mx-auto max-w-5xl">
         {/* Split header */}
-        <div className="mb-20 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-          <h2 className="max-w-xs text-3xl font-medium tracking-tight sm:text-4xl">
+        <motion.div
+          className="mb-20 flex flex-col gap-6 md:flex-row md:items-end md:justify-between"
+          initial="hidden"
+          whileInView="show"
+          viewport={viewport}
+          variants={stagger(0.08)}
+        >
+          <motion.h2
+            variants={fadeUp}
+            className="max-w-xs text-3xl font-medium tracking-tight sm:text-4xl"
+          >
             {content.heading}
-          </h2>
+          </motion.h2>
           {content.subheading && (
-            <p className="max-w-xs text-sm leading-relaxed text-muted-foreground md:text-right">
+            <motion.p
+              variants={fadeUp}
+              className="max-w-xs text-sm leading-relaxed text-muted-foreground md:text-right"
+            >
               {content.subheading}
-            </p>
+            </motion.p>
           )}
-        </div>
+        </motion.div>
 
         {/* gap-px + bg-border creates 1px inner borders between cells */}
-        <div className="grid gap-px bg-border sm:grid-cols-3">
+        <motion.div
+          className="grid gap-px bg-border sm:grid-cols-3"
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-60px" }}
+          variants={stagger(0.1)}
+        >
           {content.items.map((item) => (
-            <figure
+            <motion.figure
               key={item.author}
-              className="flex flex-col justify-between gap-10 bg-background p-8"
+              variants={fadeUp}
+              className="flex flex-col justify-between gap-10 bg-background p-8 transition-colors hover:bg-muted/30"
             >
               <div className="flex flex-col gap-5">
                 <Quote
@@ -45,9 +68,9 @@ export function TestimonialsSection({ content }: TestimonialsSectionProps) {
                   {item.company && ` · ${item.company}`}
                 </p>
               </figcaption>
-            </figure>
+            </motion.figure>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   )
