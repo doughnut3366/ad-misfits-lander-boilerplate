@@ -57,14 +57,14 @@ export function HeroSection({ content }: HeroSectionProps) {
             className="mt-12 flex flex-wrap items-center justify-center gap-3"
           >
             {content.buttons.map((btn) => (
-              <Button
-                key={btn.label}
-                variant={btn.variant ?? "default"}
-                size={btn.size ?? "default"}
-                render={<Link href={btn.href} />}
-              >
-                {btn.label}
-              </Button>
+              <Link key={btn.label} href={btn.href}>
+                <Button
+                  variant={btn.variant ?? "default"}
+                  size={btn.size ?? "default"}
+                >
+                  {btn.label}
+                </Button>
+              </Link>
             ))}
           </motion.div>
         )}
