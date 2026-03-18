@@ -38,13 +38,14 @@ export function CtaSection({ content }: CtaSectionProps) {
             <p className="text-sm leading-relaxed text-primary-foreground/70">
               {content.description}
             </p>
-            <Button
-              variant={content.button.variant ?? "secondary"}
-              size={content.button.size ?? "lg"}
-              render={<Link href={content.button.href} />}
-            >
-              {content.button.label}
-            </Button>
+            <Link href={content.button.href}>
+              <Button
+                variant={content.button.variant ?? "secondary"}
+                size={content.button.size ?? "lg"}
+              >
+                {content.button.label}
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </motion.div>
