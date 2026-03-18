@@ -1,1 +1,81 @@
-ewogICJzZWN0aW9ucyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiaGVybyIsCiAgICAgICJiYWRnZSI6ICJUcnVzdGVkIGJ5IDUwKyBEVEMgQnJhbmRzIiwKICAgICAgImhlYWRsaW5lIjogIkFkcyBUaGF0IFN0b3AgVGhlIFNjcm9sbC4gQ29udmVyc2lvbnMgVGhhdCBEb24ndCBMaWUuIiwKICAgICAgInN1YmhlYWRpbmciOiAiMi00eCBST0FTIGltcHJvdmVtZW50cyB3aXRoaW4gOTAgZGF5cyIsCiAgICAgICJwcmltYXJ5Q1RBIjogIlNlZSBZb3VyIEN1c3RvbSBXaW5uaW5nIFN0cmF0ZWd5IiwKICAgICAgInNlY29uZGFyeUNUQSI6ICJHZXQgWW91ciBGcmVlIEF1ZGl0IiwKICAgICAgImltYWdlVXJsIjogImh0dHBzOi8vaW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by8xNTUyNjY0NzMwLWQzMDdjYTg4NDk3OD93PTEyMDAmaD02MDAmZml0PWNyb3AiCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJiZW5lZml0cyIsCiAgICAgICJ0aXRsZSI6ICJIb3cgV2UgRHJpdmUgUmVhbCBSZXN1bHRzIiwKICAgICAgIml0ZW1zIjogWwogICAgICAgIHsKICAgICAgICAgICJ0aXRsZSI6ICI1LURheSBUdXJuYXJvdW5kIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJHZXQgaGlnaC1wZXJmb3JtaW5nIGNyZWF0aXZlcyBmYXN0LiBObyBkZWxheXMuIE5vIGV4Y3VzZXMuIEp1c3Qgc3BlZWQuIiwKICAgICAgICAgICJpY29uIjogIuKaoe+4jyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJ0aXRsZSI6ICJST0FTLUZpcnN0IFRoaW5raW5nIiwKICAgICAgICAgICJkZXNjcmlwdGlvbiI6ICJFdmVyeSBjcmVhdGl2ZSBpcyBvcHRpbWl6ZWQgZm9yIGNvbnZlcnNpb25zLiBXZSB0aGluayBpbiB0ZXJtcyBvZiByZXZlbnVlLCBub3QgdmFuaXR5IG1ldHJpY3MuIiwKICAgICAgICAgICJpY29uIjogIvCfk4giCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAidGl0bGUiOiAiQ3J5c3RhbCBDbGVhciBSZXBvcnRpbmciLAogICAgICAgICAgImRlc2NyaXB0aW9uIjogIlNlZSBleGFjdGx5IHdoYXQncyB3b3JraW5nLiBXZWVrbHkgcGVyZm9ybWFuY2UgYnJlYWtkb3ducyB3aXRoIGFjdGlvbmFibGUgaW5zaWdodHMuIiwKICAgICAgICAgICJpY29uIjogIvCfk4oiCiAgICAgICAgfQogICAgICBdCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJ0ZXN0aW1vbmlhbHMiLAogICAgICAidGVzdGltb25pYWxzIjogWwogICAgICAgIHsKICAgICAgICAgICJxdW90ZSI6ICJXZSB3ZW50IGZyb20gMS44eCB0byA0LjJ4IFJPQVMgaW4gdGhlIGZpcnN0IG1vbnRoLiBUaGUgZGlmZmVyZW5jZSB3YXMgbmlnaHQgYW5kIGRheS4iLAogICAgICAgICAgImF1dGhvciI6ICJTYXJhaCBDaGVuIiwKICAgICAgICAgICJjb21wYW55IjogIkZpdEZsb3ciLAogICAgICAgICAgIm1ldHJpYyI6ICI0LjJ4IFJPQVMiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAicXVvdGUiOiAiQ0FDOiBkcm9wcGVkIDMxJSB3aGlsZSBjb252ZXJzaW9uIHJhdGUgaW1wcm92ZWQgMjMlLiBUaGF0J3MgdGhlIGtpbmQgb2YgcGVyZm9ybWFuY2Ugd2UgbmVlZGVkLiIsCiAgICAgICAgICAiYXV0aG9yIjogIk1hcmN1cyBXaWxsaWFtcyIsCiAgICAgICAgICAiY29tcGFueSI6ICJQcm9wZWwgQmVhdXR5IiwKICAgICAgICAgICJtZXRyaWMiOiAiLTMxJSBDQUMiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAicXVvdGUiOiAiQ1BNIGRvd24gMzglLCBDVFIgdXAgNDcuIEZpbmFsbHksIGFuIGFnZW5jeSB0aGF0IHVuZGVyc3RhbmRzIGVmZmljaWVuY3kuIiwKICAgICAgICAgICJhdXRob3IiOiAiUHJpeWEgS2Fub29yIiwKICAgICAgICAgICJjb21wYW55IjogIlNuYXBTdHlsZSIsCiAgICAgICAgICAibWV0cmljIjogIi0zOCUgQ1BNIgogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiY3RhIiwKICAgICAgImhlYWRsaW5lIjogIlNlZSBZb3VyIEN1c3RvbSBXaW5uaW5nIFN0cmF0ZWd5IiwKICAgICAgImRlc2NyaXB0aW9uIjogIkEgZnJlZSAzMC1taW51dGUgYXVkaXQgdG8gaWRlbnRpZnkgeW91ciBiaWdnZXN0IG9wcG9ydHVuaXR5IGZvciBncm93dGguIiwKICAgICAgImJ1dHRvblRleHQiOiAiR2V0IFlvdXIgU3RyYXRlZ3kiLAogICAgICAic3VidGV4dCI6ICJObyBjcmVkaXQgY2FyZCByZXF1aXJlZC4gUmVzdWx0cyBndWFyYW50ZWVkLiIKICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogImZhcSIsCiAgICAgICJmYXFzIjogWwogICAgICAgIHsKICAgICAgICAgICJxdWVzdGlvbiI6ICJXaGF0J3MgdGhlIHR5cGljYWwgdHVybmFyb3VuZCB0aW1lPyIsCiAgICAgICAgICAiYW5zd2VyIjogIjUgYnVzaW5lc3MgZGF5cyBmcm9tIGJyaWVmIHRvIGRlbGl2ZXJ5LiBXZSBwcmlvcml0aXplIHNwZWVkIHdpdGhvdXQgc2FjcmlmaWNpbmcgcXVhbGl0eS4iCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAicXVlc3Rpb24iOiAiSXMgdGhlcmUgYSBsb25nLXRlcm0gY29tbWl0bWVudD8iLAogICAgICAgICAgImFuc3dlciI6ICJOb3BlLiBTdGFydCB3aXRoIGEgc2luZ2xlIHNwcmludC4gSWYgeW91IGxvdmUgdGhlIHJlc3VsdHMgKGFuZCB5b3Ugd2lsbCksIHdlIGNhbiBzY2FsZSBmcm9tIHRoZXJlLiIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJxdWVzdGlvbiI6ICJIb3cgZG8geW91IHJlcG9ydCBwZXJmb3JtYW5jZT8iLAogICAgICAgICAgImFuc3dlciI6ICJXZWVrbHkgcmVwb3J0cyB3aXRoIFJPQVMsIENBQywgQ1RSLCBjb252ZXJzaW9uIHJhdGUsIGFuZCBzcGVjaWZpYyBjcmVhdGl2ZSBtZXRyaWNzLiBQbGFpbiBFbmdsaXNoIG1hdHRlcnMuIFdlIHNlbmQgd2Vla2x5IHJlcG9ydHPigJRubyBmbHVmZiwganVzdCBudW1iZXJzLiIKICAgICAgICB9CiAgICAgIF0KICAgIH0KICBDCN9
+{
+  "sections": [
+    {
+      "type": "hero",
+      "badge": "Trusted by 50+ DTC Brands",
+      "headline": "Ads That Stop The Scroll. Conversions That Don't Lie.",
+      "subheading": "2-4x ROAS improvements within 90 days",
+      "primaryCTA": "See Your Custom Winning Strategy",
+      "secondaryCTA": "Get Your Free Audit",
+      "imageUrl": "https://images.unsplash.com/photo/1552664730-d307ca88b978?w=1200&h=600&fit=crop"
+    },
+     {
+      "type": "benefits",
+      "title": "How We Drive Real Results",
+      "items": [
+        {
+          "title": "5-Day Turnaround",
+          "description": "Get high-performing creatives fast. No delays. No excuses. Just speed.",
+          "icon": "ⰴ·"
+        },
+        {
+          "title": "ROAS-First Thinking",
+          "description": "Every creative is optimized for conversions. We think in terms of revenue, not vanity metrics.",
+          "icon": "📶"
+        },
+        {
+          "title": "Crystal Clear Reporting",
+          "description": "See exactly what’s working. Weekly performance breakdowns with actionable insights.",
+          "icon": "💂"
+        }
+      ]
+    },
+    {
+      "type": "testimonials",
+      "testimonials": [
+         {
+          "quote": "We went from 1.8x to 4.2x ROAS in the first month. The difference was night and day.",
+          "author": "Sarah Chen",
+          "company": "FitFlow",
+          "metric": "4.2x ROAS"
+        },
+          {
+          "quote": "CAC: dropped 31% while conversion rate improved 23%. That’s the kind of performance we needed.",
+          "author": "Marcus Williams",
+          "company": "Propel Beauty",
+          "metric": "-31% CAC"
+        },
+         {
+          "quote": "CPM down 38%, CTR up 47. Finally, an agency that understands efficiency.",
+          "author": "Priya Kanoor",
+          "company": "SnapStyle",
+          "metric": "-38% CPM"
+        }
+      ]
+    },
+     {
+      "type": "cta",
+      "headline": "See Your Custom Winning Strategy",
+      "description": "A free 30-minute audit to identify your biggest opportunity for growth.",
+      "buttonText": "Get Your Strategy",
+      "subtext": "No credit card required. Results guaranteed."
+    },
+    {
+      "type": "faq",
+      "faqs": [
+        {
+          "question": "What's the typical turnaround time?",
+          "answer": "5 business days from brief to delivery. We prioritize speed without sacrificing quality."
+        },
+          {
+          "question": "Id there a long-term commitment?",
+          "answer": "Nope. Start with a single sprint. If you love the results (and you will), we can scale from there."
+        },
+        {
+          "question": "How do you report performance?",
+          "answer": "Weekly reports with ROAS, CAC, CTR, conversion rate, and specific creative metrics. Plain English matters. We send weekly reports—no fluff, just numbers."
+        }
+      ]
+    }
+  ]
+}
