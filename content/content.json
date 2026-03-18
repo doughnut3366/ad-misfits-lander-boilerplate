@@ -3,68 +3,82 @@
     {
       "type": "hero",
       "badge": "Trusted by 50+ DTC Brands",
-      "headline": "Ads That Stop The Scroll. Conversions That Do not Lie.",
+      "heading": "Ads That Stop The Scroll. Conversions That Don't Lie.",
       "subheading": "2-4x ROAS improvements within 90 days",
-      "primaryCTA": "See Your Custom Winning Strategy",
-      "secondaryCTA": "Get Your Free Audit",
-      "imageUrl": "https://images.unsplash.com/photo/1552664730-d307ca884978?w=1200&h=600&fit=crop"
+      "buttons": [
+        {
+          "label": "See Your Custom Winning Strategy",
+          "href": "/strategy",
+          "variant": "default"
+        },
+        {
+          "label": "Get Your Free Audit",
+          "href": "/audit",
+          "variant": "outline"
+        }
+      ]
     },
     {
       "type": "benefits",
-      "title": "How We Drive Real Results",
+      "heading": "How We Drive Real Results",
       "items": [
         {
+          "icon": "Zap",
           "title": "5-Day Turnaround",
-          "description": "Get high-performing creatives fast. No delays. No excuses. Just speed.",
-          "icon": "⚡️"
+          "description": "Get high-performing creatives fast. No delays. No excuses. Just speed."
         },
         {
+          "icon": "Target",
           "title": "ROAS-First Thinking",
-          "description": "Every creative is optimized for conversions. We think in terms of revenue, not vanity metrics.",
-          "icon": "📈"
+          "description": "Every creative is optimized for conversions. We think in terms of revenue, not vanity metrics."
         },
         {
+          "icon": "BarChart3",
           "title": "Crystal Clear Reporting",
-          "description": "See exactly what is working. Weekly performance breakdowns with actionable insights.",
-          "icon": "📊"
+          "description": "See exactly what's working. Weekly performance breakdowns with actionable insights."
         }
       ]
     },
     {
       "type": "testimonials",
-      "testimonials": [
+      "heading": "Results That Speak",
+      "items": [
         {
           "quote": "We went from 1.8x to 4.2x ROAS in the first month. The difference was night and day.",
           "author": "Sarah Chen",
-          "company": "FitFlow",
-          "metric": "4.2x ROAS"
+          "role": "CEO",
+          "company": "FitFlow"
         },
         {
-          "quote": "CAC: dropped 31% while conversion rate improved 23%. That is the kind of performance we needed.",
+          "quote": "CAC dropped 31% while conversion rate improved 23%. That's the kind of performance we needed.",
           "author": "Marcus Williams",
-          "company": "Propel Beauty",
-          "metric": "-31% CAC"
+          "role": "Marketing Director",
+          "company": "Propel Beauty"
         },
         {
           "quote": "CPM down 38%, CTR up 47. Finally, an agency that understands efficiency.",
           "author": "Priya Kanoor",
-          "company": "SnapStyle",
-          "metric": "-38% CPM"
+          "role": "Growth Lead",
+          "company": "SnapStyle"
         }
       ]
     },
     {
       "type": "cta",
-      "headline": "See Your Custom Winning Strategy",
+      "heading": "See Your Custom Winning Strategy",
       "description": "A free 30-minute audit to identify your biggest opportunity for growth.",
-      "buttonText": "Get Your Strategy",
-      "subtext": "No credit card required. Results guaranteed."
+      "button": {
+        "label": "Get Your Strategy",
+        "href": "/get-strategy",
+        "variant": "default"
+      }
     },
     {
       "type": "faq",
-      "faqs": [
+      "heading": "Common Questions",
+      "items": [
         {
-          "question": "What is the typical turnaround time?",
+          "question": "What's the typical turnaround time?",
           "answer": "5 business days from brief to delivery. We prioritize speed without sacrificing quality."
         },
         {
@@ -73,7 +87,7 @@
         },
         {
           "question": "How do you report performance?",
-          "answer": "Weekly reports with ROAS, CAC, CTR, conversion rate, and specific creative metrics. Plain English matters. We send weekly reports—no fluff, just numbers."
+          "answer": "Weekly reports with ROAS, CAC, CTR, conversion rate, and specific creative metrics. Plain English matters. No fluff, just numbers."
         }
       ]
     }
