@@ -1,1 +1,1 @@
-{"buildCommand":"next build","outputDirectory":".next","installCommand":"bun install","packageManager":"bun@latest"}
+{"buildCommand": "bun run build","installCommand": "bun install","outputDirectory": ".next","packageManager": "bun@latest"}
